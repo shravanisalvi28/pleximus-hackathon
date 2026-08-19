@@ -140,7 +140,7 @@ TOOLS = [calculator, weather_lookup, text_utility, unit_converter]
 class PleximusAgent:
     """Conversational agent powered by Gemini with tool-calling support."""
 
-    def __init__(self, api_key: str, model: str = "gemini-2.0-flash"):
+    def __init__(self, api_key: str, model: str = "gemini-1.5-flash"):
         self.client = genai.Client(api_key=api_key)
         self.model = model
         self.chat = self._new_chat()
