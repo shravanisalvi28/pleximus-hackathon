@@ -1,5 +1,5 @@
 """
-agent.py — Pleximus AI Agent core.
+agent.py — BeforeTheAnswer AI core.
 
 Integrates Google Gemini with four tools via the google-genai SDK's
 automatic function-calling feature. Each tool is a plain Python function;
@@ -140,7 +140,7 @@ TOOLS = [calculator, weather_lookup, text_utility, unit_converter]
 class PleximusAgent:
     """Conversational agent powered by Gemini with tool-calling support."""
 
-    def __init__(self, api_key: str, model: str = "gemini-1.5-flash"):
+    def __init__(self, api_key: str, model: str = "gemini-3.6-flash"):
         self.client = genai.Client(api_key=api_key)
         self.model = model
         self.chat = self._new_chat()

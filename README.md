@@ -1,4 +1,4 @@
-# 🤖 Pleximus AI Tool Agent
+# 🤖 BeforeTheAnswer AI
 
 **Pleximus Inc. — AI & ML Hackathon | FAMT Ratnagiri**
 
